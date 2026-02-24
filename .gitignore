@@ -1,8 +1,11 @@
 # ============================================================
 # DATA — raw and processed files must never be committed
 # ============================================================
-data/raw/
-data/processed/
+# Ignore data content but keep folder structure
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
 # ============================================================
 # CURSOR RULES — internal project configuration
