@@ -1,0 +1,5 @@
+model,setting,accuracy,macro_f1,n_features_used,seed,test_size
+linear_svm,with_pca_95,1.0,1.0,434,42,0.2
+linear_svm,without_pca,1.0,1.0,20531,42,0.2
+logreg_l2,with_pca_95,1.0,1.0,434,42,0.2
+logreg_l2,without_pca,0.9813664596273292,0.9749380165289256,20531,42,0.2
