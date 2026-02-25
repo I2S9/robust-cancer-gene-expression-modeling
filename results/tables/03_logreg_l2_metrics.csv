@@ -1,0 +1,2 @@
+model,accuracy,macro_f1,n_train,n_test,n_features,seed,test_size
+logreg_l2,0.9813664596273292,0.9749380165289256,640,161,20531,42,0.2
