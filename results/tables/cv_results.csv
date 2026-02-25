@@ -1,0 +1,5 @@
+model,setting,cv_f1_macro_mean,cv_f1_macro_std,n_splits,seed,n_features_used
+linear_svm,with_pca_95,1.0,0.0,5,42,435
+linear_svm,without_pca,1.0,0.0,5,42,20531
+logreg_l2,with_pca_95,1.0,0.0,5,42,435
+logreg_l2,without_pca,0.9938056454237078,0.006681088322716332,5,42,20531
