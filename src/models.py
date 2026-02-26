@@ -41,4 +41,9 @@ def make_random_forest(seed: int = 42, n_estimators: int = 60) -> RandomForestCl
 
 def make_gradient_boosting(seed: int = 42) -> GradientBoostingClassifier:
     """Build a gradient boosting baseline classifier."""
-    return GradientBoostingClassifier(random_state=seed)
+    return GradientBoostingClassifier(
+        n_estimators=80,
+        learning_rate=0.1,
+        max_depth=2,
+        random_state=seed,
+    )

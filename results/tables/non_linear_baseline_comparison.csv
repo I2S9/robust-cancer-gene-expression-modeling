@@ -1,0 +1,5 @@
+model,feature_setting,accuracy,macro_f1,n_features,seed
+gradient_boosting,raw_features,0.9813664596273292,0.9795836026401865,1000,42
+gradient_boosting,standardized_features,0.9813664596273292,0.9795836026401865,1000,42
+random_forest,raw_features,0.9875776397515528,0.9893139040680025,1000,42
+random_forest,standardized_features,0.9875776397515528,0.9893139040680025,1000,42
