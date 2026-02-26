@@ -1,5 +1,5 @@
 from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
 from sklearn.svm import LinearSVC
 
 
@@ -37,3 +37,8 @@ def make_random_forest(seed: int = 42, n_estimators: int = 60) -> RandomForestCl
         random_state=seed,
         n_jobs=-1,
     )
+
+
+def make_gradient_boosting(seed: int = 42) -> GradientBoostingClassifier:
+    """Build a gradient boosting baseline classifier."""
+    return GradientBoostingClassifier(random_state=seed)
